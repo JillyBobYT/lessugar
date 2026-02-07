@@ -95,7 +95,7 @@ body{
 /* ===== SECTIONS ===== */
 section{padding:120px 20px;text-align:center}
 h2{font-size:40px}
-p{max-width:900px;margin:auto}
+p{max-width:900px;margin:auto;line-height:1.7}
 
 /* ABOUT */
 .about{background:linear-gradient(135deg,#ecfdf5,#d1fae5)}
@@ -114,6 +114,42 @@ p{max-width:900px;margin:auto}
   border-radius:28px;
   font-weight:600;
   background:linear-gradient(135deg,#86efac,#22c55e);
+}
+
+/* ===== INFORMASI DIABETES (BARU) ===== */
+.info{
+  background:linear-gradient(135deg,#f0fdf4,#dcfce7);
+}
+.info-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:30px;
+  max-width:1100px;
+  margin:60px auto 0;
+}
+.info-card{
+  background:white;
+  padding:36px;
+  border-radius:28px;
+  box-shadow:0 15px 40px rgba(0,0,0,.1);
+}
+
+/* ===== KAMPANYE (BARU) ===== */
+.campaign{
+  background:linear-gradient(135deg,#ecfeff,#cffafe);
+}
+.campaign-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:30px;
+  max-width:1100px;
+  margin:60px auto 0;
+}
+.campaign-card{
+  background:white;
+  padding:36px;
+  border-radius:28px;
+  box-shadow:0 15px 40px rgba(0,0,0,.1);
 }
 
 /* ECO */
@@ -206,6 +242,45 @@ footer{
     <div class="fact">⚠️ Gula berlebih tingkatkan risiko diabetes</div>
     <div class="fact">🥗 Makanan alami lebih sehat</div>
     <div class="fact">📉 Kurangi gula = hidup lebih baik</div>
+  </div>
+</section>
+
+<!-- INFORMASI DIABETES -->
+<section class="info">
+  <h2>Informasi Diabetes</h2>
+  <p>
+    Tujuan: Memberikan pemahaman kepada masyarakat tentang diabetes,
+    penyebabnya, serta pentingnya mengontrol konsumsi gula sejak dini.
+  </p>
+
+  <div class="info-grid">
+    <div class="info-card">
+      <h3>Apa itu Diabetes?</h3>
+      <p>Penyakit kronis akibat kadar gula darah yang terlalu tinggi.</p>
+    </div>
+    <div class="info-card">
+      <h3>Penyebab</h3>
+      <p>Pola makan tinggi gula, kurang aktivitas fisik.</p>
+    </div>
+    <div class="info-card">
+      <h3>Pencegahan</h3>
+      <p>Kurangi gula, konsumsi makanan sehat, dan olahraga rutin.</p>
+    </div>
+  </div>
+</section>
+
+<!-- KAMPANYE -->
+<section class="campaign">
+  <h2>Kampanye Lessugar</h2>
+  <p>
+    Tujuan: Mengajak masyarakat menerapkan gaya hidup rendah gula
+    demi kesehatan tubuh dan kelestarian lingkungan.
+  </p>
+
+  <div class="campaign-grid">
+    <div class="campaign-card">📢 Edukasi bahaya gula berlebih</div>
+    <div class="campaign-card">🥗 Promosi makanan rendah gula</div>
+    <div class="campaign-card">🌱 Gaya hidup sehat & berkelanjutan</div>
   </div>
 </section>
 
