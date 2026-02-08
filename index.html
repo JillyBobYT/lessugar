@@ -47,17 +47,11 @@ body{
   text-align:center;
 }
 
-.slide-content h1{
-  font-size:56px;
-  margin-bottom:16px;
-}
-.slide-content p{
-  font-size:18px;
-  line-height:1.7;
-}
+.slide-content h1{font-size:56px;margin-bottom:16px}
+.slide-content p{font-size:18px;line-height:1.7}
 
 /* SLIDE BACKGROUNDS */
-.slide:nth-child(1){background-image:url("lessugar.png")}
+.slide:nth-child(1){background-image:url("lessugra.png")}
 .slide:nth-child(2){background-image:url("picnic.webp")}
 .slide:nth-child(3){background-image:url("pathway.jpg")}
 .slide:nth-child(4){background-image:url("nature.jpg")}
@@ -116,10 +110,8 @@ p{max-width:900px;margin:auto;line-height:1.7}
   background:linear-gradient(135deg,#86efac,#22c55e);
 }
 
-/* ===== INFORMASI DIABETES (BARU) ===== */
-.info{
-  background:linear-gradient(135deg,#f0fdf4,#dcfce7);
-}
+/* INFO DIABETES */
+.info{background:linear-gradient(135deg,#f0fdf4,#dcfce7)}
 .info-grid{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
@@ -134,10 +126,8 @@ p{max-width:900px;margin:auto;line-height:1.7}
   box-shadow:0 15px 40px rgba(0,0,0,.1);
 }
 
-/* ===== KAMPANYE (BARU) ===== */
-.campaign{
-  background:linear-gradient(135deg,#ecfeff,#cffafe);
-}
+/* CAMPAIGN */
+.campaign{background:linear-gradient(135deg,#ecfeff,#cffafe)}
 .campaign-grid{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
@@ -150,6 +140,7 @@ p{max-width:900px;margin:auto;line-height:1.7}
   padding:36px;
   border-radius:28px;
   box-shadow:0 15px 40px rgba(0,0,0,.1);
+  font-weight:600;
 }
 
 /* ECO */
@@ -191,7 +182,6 @@ footer{
 <!-- SLIDER -->
 <div class="slider">
   <div class="slides" id="slides">
-
     <div class="slide"><div class="slide-content">
       <h1>LESSUGAR</h1>
       <p>Kurangi Gula • Hidup Lebih Sehat • Lebih Ramah Lingkungan</p>
@@ -218,7 +208,6 @@ footer{
       <p>Mulai perubahan hari ini</p>
       <a href="#join" class="btn">Gabung</a>
     </div></div>
-
   </div>
 
   <div class="dots">
@@ -239,47 +228,53 @@ footer{
   <h2>Fakta Diabetes</h2>
   <div class="fact-grid">
     <div class="fact">🥤 Minuman manis sumber gula terbesar</div>
-    <div class="fact">⚠️ Gula berlebih tingkatkan risiko diabetes</div>
+    <div class="fact">⚠️ Gula berlebih meningkatkan risiko diabetes</div>
     <div class="fact">🥗 Makanan alami lebih sehat</div>
-    <div class="fact">📉 Kurangi gula = hidup lebih baik</div>
+    <div class="fact">📉 Kurangi gula meningkatkan kualitas hidup</div>
   </div>
 </section>
 
-<!-- INFORMASI DIABETES -->
 <section class="info">
   <h2>Informasi Diabetes</h2>
   <p>
-    Tujuan: Memberikan pemahaman kepada masyarakat tentang diabetes,
-    penyebabnya, serta pentingnya mengontrol konsumsi gula sejak dini.
+    Tujuan: Memberikan informasi yang akurat mengenai diabetes agar masyarakat
+    lebih sadar pentingnya mengontrol konsumsi gula sejak dini.
   </p>
 
   <div class="info-grid">
     <div class="info-card">
       <h3>Apa itu Diabetes?</h3>
-      <p>Penyakit kronis akibat kadar gula darah yang terlalu tinggi.</p>
+      <p>Penyakit kronis akibat kadar gula darah tinggi karena gangguan insulin.</p>
     </div>
     <div class="info-card">
-      <h3>Penyebab</h3>
-      <p>Pola makan tinggi gula, kurang aktivitas fisik.</p>
+      <h3>Gejala Umum</h3>
+      <p>Sering haus, sering buang air kecil, mudah lelah, berat badan menurun.</p>
+    </div>
+    <div class="info-card">
+      <h3>Faktor Risiko</h3>
+      <p>Pola makan tinggi gula, obesitas, dan kurang aktivitas fisik.</p>
     </div>
     <div class="info-card">
       <h3>Pencegahan</h3>
-      <p>Kurangi gula, konsumsi makanan sehat, dan olahraga rutin.</p>
+      <p>Kurangi gula, konsumsi makanan sehat, dan rutin berolahraga.</p>
     </div>
   </div>
+
+  <p style="margin-top:40px;font-size:14px">
+    Sumber: <a href="https://www.alodokter.com/diabetes" target="_blank">Alodokter.com</a>
+  </p>
 </section>
 
-<!-- KAMPANYE -->
 <section class="campaign">
   <h2>Kampanye Lessugar</h2>
   <p>
-    Tujuan: Mengajak masyarakat menerapkan gaya hidup rendah gula
-    demi kesehatan tubuh dan kelestarian lingkungan.
+    Tujuan: Mengajak masyarakat menerapkan gaya hidup rendah gula demi
+    kesehatan tubuh dan kelestarian lingkungan.
   </p>
 
   <div class="campaign-grid">
-    <div class="campaign-card">📢 Edukasi bahaya gula berlebih</div>
-    <div class="campaign-card">🥗 Promosi makanan rendah gula</div>
+    <div class="campaign-card">📢 Edukasi bahaya konsumsi gula berlebih</div>
+    <div class="campaign-card">🥗 Ajak konsumsi makanan rendah gula</div>
     <div class="campaign-card">🌱 Gaya hidup sehat & berkelanjutan</div>
   </div>
 </section>
@@ -294,10 +289,14 @@ footer{
 </section>
 
 <section id="join" class="cta">
-  <h2>Resep & Kampanye Berbasis Komunitas</h2>
-  <p>Resep rendah gula & komunitas Lessugar</p>
-  <a class="btn" href="https://drive.google.com/drive/folders/1tN_hldg7ZCkcWbqG7qh7q-67gFp80LYa" target="_blank">Resep</a>
-  <a class="btn" href="https://chat.whatsapp.com/JY0dRUbE1hv4zaZj3md0MV" target="_blank">Komunitas</a>
+  <h2>Kurangi Gula Hari Ini, Selamatkan Masa Depanmu</h2>
+  <p>
+    Mari cegah diabetes dengan pilihan kecil setiap hari
+    demi hidup lebih sehat dan bumi yang lebih baik.
+  </p>
+
+  <a class="btn" href="https://drive.google.com/drive/folders/1tN_hldg7ZCkcWbqG7qh7q-67gFp80LYa" target="_blank">Resep Lessugar</a>
+  <a class="btn" href="https://chat.whatsapp.com/JY0dRUbE1hv4zaZj3md0MV" target="_blank">Gabung WhatsApp</a>
 </section>
 
 <footer>
